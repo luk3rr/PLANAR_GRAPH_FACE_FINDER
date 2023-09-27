@@ -1,9 +1,0 @@
-{
-    "makefile.launchConfigurations": [
-        {
-            "cwd": "/home/luk3rr/Projects/ALG_I/TP_I/bin",
-            "binaryPath": "/home/luk3rr/Projects/ALG_I/TP_I/bin/program",
-            "binaryArgs": ["<", "../src/tests/cases/case_1.txt"]
-        }
-    ]
-}
