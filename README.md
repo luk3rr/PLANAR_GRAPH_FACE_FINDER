@@ -10,15 +10,15 @@ PGFF é um programa que recebe um grafo $G(V,E)$ e encontra todas as suas faces.
 PGFF pode ser compilado com o seguinte comando:
 
 ``` sh
-$ make build
+$ ./run --build
 ```
 
 OBS.: O programa foi desenvolvido e testado utilizando o g++12. Certifique-se de utilizar esta versão do compilador.
 
 # Execução
-A execução pode ser realizada tanto pelo Makefile: ``make run"``
+A execução pode ser realizada tanto pelo script python: ``./run --exec``
 
-quanto pela execução direta do executável: ``bin/program``
+quanto pela execução direta do executável: ``bin/Release/program``
 
 ## Formato de Entrada
 A primeira linha contém dois inteiros, $N$ e $M$, que representam o número de vértices e arestas do grafo de entrada $G$.
